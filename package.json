@@ -2,8 +2,10 @@
   "name": "homepage-parallax",
   "version": "1.0.0",
   "description": "homepage with parallax feature",
+  "main":"server.js",
   "scripts": {
-    "build": "gulp build.js"
+    "build": "gulp",
+    "start": "node server.js"
   },
   "author": "rokoala",
   "license": "MIT",
@@ -18,6 +20,7 @@
     "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "jquery": "^3.3.1",
     "parallax-js": "^3.1.0"
   }
